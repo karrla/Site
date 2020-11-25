@@ -7,20 +7,14 @@
 
 body{
 
-    /*background-color: grey;*/
     font-family: -apple-system, BlnkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
 }
 
 h1{
     font-size: 1.75em;
     margin-bottom: 30px;
+    text-align: center;
 }
-
-div {
-
-
-}
-
 
 p {
     text-align left;
@@ -29,12 +23,7 @@ p {
     background-color: grey;
     border: 1px solid black;
     margin: 15px;
-    position: relative;
-
-
-
-    
-    
+    position: relative;   
 }
 
 span {
@@ -42,16 +31,10 @@ span {
     border: 1px solid black;
     width: 150px;
     height: 1.50em;
-
-
-
     position: absolute;
-    top: 0px;
-    right: 0px;
-    overflow: scroll;
-
+    top: -1px;
+    right: -1px;
 }
-
 
 #title1 {
     background-color: teal;
@@ -65,20 +48,17 @@ span {
     background-color: purple;
 }
 
-
-
-/*Simple Responsive Framework
+/*Simple Responsive Framework*/
 
 .row {
   width: 100%;  
-}*/
+}
 
 /********** Large devices only*/
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {    
     float: left;
     padding:15px;
-    /*border: 1px solid black;*/
 }
 .col-lg-1 {
   width: 8.33%;
@@ -122,8 +102,6 @@ span {
  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
   float: left;
   padding:15px;
-
-  /*border: 2px solid green;*/
 }
 .col-md-1 {
   width: 8.33%;
